@@ -1,11 +1,11 @@
 #!/bin/bash -xve
 
 #required packages
+pip install 'requests[security]'
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
 pip install rospkg
-pip install 'requests[security]'
 
 #ros install
 cd ..
